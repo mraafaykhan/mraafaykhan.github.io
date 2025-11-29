@@ -1,75 +1,398 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>fundefined variable at line 1</title>
-  <link href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand:400,600&display=swap" rel="stylesheet">
-  <style>
-    *, html, body {
-      margin: 0;
-    }
-    html,
-    body {
-      font-size: 16px;
-    }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    html {
-      background: url(https://fundefinedstorage.s3.eu-north-1.amazonaws.com/assets/one_step.jpg) no-repeat center center fixed;
-      background-size: cover;
-      height: 100%;
-      overflow: hidden;
-    }
+  <!-- Primary Meta Tags -->
+  <title>Muhammad Raafay Khan | Staff Software Engineer</title>
+  <meta name="title" content="Muhammad Raafay Khan | Staff Software Engineer">
+  <meta name="description" content="Staff Software Engineer with 7+ years of experience designing and scaling enterprise-grade distributed systems. Expert in Go, Node.js, Kubernetes, Kafka, and AWS.">
+  <meta name="keywords" content="Staff Software Engineer, Backend Developer, Go, Golang, Node.js, Kubernetes, AWS, Distributed Systems, Microservices, Pakistan, Software Architect">
+  <meta name="author" content="Muhammad Raafay Khan">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://mraafaykhan.github.io/personalWebsite/">
 
-    h1 {
-      font-family: 'Pacifico', cursive;
-      font-size: 4.5rem;
-      margin-bottom: 1rem;
-    }
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mraafaykhan.github.io/personalWebsite/">
+  <meta property="og:title" content="Muhammad Raafay Khan | Staff Software Engineer">
+  <meta property="og:description" content="7+ years building scalable distributed systems with Go, Node.js, and Kubernetes. Currently Technical Lead at Securiti.ai.">
+  <meta property="og:image" content="https://fundefinedstorage.s3.eu-north-1.amazonaws.com/assets/one_step.jpg">
+  <meta property="og:site_name" content="Raafay Khan Portfolio">
 
-    h2 {
-      font-family: 'Quicksand', sans-serif;
-      font-size: 3.3rem;
-      font-weight: 600;
-    }
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://mraafaykhan.github.io/personalWebsite/">
+  <meta name="twitter:title" content="Muhammad Raafay Khan | Staff Software Engineer">
+  <meta name="twitter:description" content="7+ years building scalable distributed systems with Go, Node.js, and Kubernetes.">
+  <meta name="twitter:image" content="https://fundefinedstorage.s3.eu-north-1.amazonaws.com/assets/one_step.jpg">
 
-    h1, h2 {
-      color: #F0F0F0;
-    }
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    .w-100 {
-      width: 100%;
-    }
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
 
-    .h-100 {
-      height: 100%;
-    }
-
-    .d-flex {
-      display: flex;
-    }
-
-    .flew-row {
-      flex-direction: row;
-    }
-
-    .flew-col {
-      flex-direction: column;
-    }
-
-    .main-heading {
-      margin-top: 3rem;
-      margin-left: 3rem;
-    }
-  </style>
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Muhammad Raafay Khan",
+    "jobTitle": "Staff Software Engineer",
+    "url": "https://mraafaykhan.github.io/personalWebsite/",
+    "email": "raafayrashid@gmail.com",
+    "image": "https://fundefinedstorage.s3.eu-north-1.amazonaws.com/assets/one_step.jpg",
+    "sameAs": [
+      "https://linkedin.com/in/fundefinedvar",
+      "https://github.com/mraafaykhan"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Securiti.ai"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "National University of Sciences and Technology (NUST)"
+    },
+    "knowsAbout": ["Go", "Node.js", "Kubernetes", "Distributed Systems", "AWS", "Kafka", "Microservices", "Backend Development"]
+  }
+  </script>
 </head>
-<div class="h-100 w-100">
-  <div class="main-heading">
-    <h2>
-      Muhammad Raafay Khan
-    </h2>
-    <h2>
-      Software Engineer
-    </h2>
-  </div>
-</div>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="terminal-prompt">~$</span> raafay.dev
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-image">
+          <img src="https://fundefinedstorage.s3.eu-north-1.amazonaws.com/assets/one_step.jpg" alt="Muhammad Raafay Khan - Staff Software Engineer" class="profile-photo">
+        </div>
+        <div class="hero-text">
+          <p class="hero-greeting"><span class="terminal-prompt">~$</span> whoami</p>
+          <h1 class="hero-name">Muhammad Raafay Khan</h1>
+          <h2 class="hero-title">Staff Software Engineer</h2>
+          <p class="hero-tagline">Building scalable distributed systems that handle millions of requests daily. 7+ years of shipping production code.</p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            <a href="https://linkedin.com/in/fundefinedvar" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">View Resume</a>
+          </div>
+          <div class="hero-social">
+            <a href="https://github.com/mraafaykhan" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" class="social-link">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/fundefinedvar" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="social-link">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="mailto:raafayrashid@gmail.com" aria-label="Email" class="social-link">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section class="section about" id="about">
+      <div class="container">
+        <h2 class="section-title"><span class="terminal-prompt">~$</span> cat about.txt</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>Staff Software Engineer with <strong>7+ years</strong> of experience designing and scaling enterprise-grade distributed systems across <strong>FinTech</strong>, <strong>IoT</strong>, and <strong>data-catalog</strong> platforms.</p>
+            <p>Proven expertise leading cloud-native backend initiatives using <strong>Go</strong>, <strong>Node.js</strong>, <strong>Kubernetes</strong>, <strong>Kafka</strong>, and <strong>AWS</strong>. Strong track record modernizing monolithic architectures into microservices delivering up to <strong>1,400% scalability gains</strong> and reducing cloud compute costs by <strong>~55%</strong>.</p>
+            <p>Experienced in building high-throughput, containerized systems processing <strong>millions of requests daily</strong>, implementing distributed transactions, event-driven workflows, and real-time data pipelines.</p>
+          </div>
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <span class="highlight-number">7+</span>
+              <span class="highlight-label">Years Experience</span>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-number">1400%</span>
+              <span class="highlight-label">Scalability Gains</span>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-number">55%</span>
+              <span class="highlight-label">Cost Reduction</span>
+            </div>
+            <div class="highlight-card">
+              <span class="highlight-number">50M+</span>
+              <span class="highlight-label">Daily Requests</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <h2 class="section-title"><span class="terminal-prompt">~$</span> ls skills/</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="skill-category-title">languages/</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">Golang</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-category-title">backend/</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">NestJS</span>
+              <span class="skill-tag">Express.js</span>
+              <span class="skill-tag">Fiber</span>
+              <span class="skill-tag">Spring Boot</span>
+              <span class="skill-tag">gRPC</span>
+              <span class="skill-tag">GraphQL</span>
+              <span class="skill-tag">REST APIs</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-category-title">cloud/</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">EC2</span>
+              <span class="skill-tag">Fargate</span>
+              <span class="skill-tag">S3</span>
+              <span class="skill-tag">Lambda</span>
+              <span class="skill-tag">SQS/SNS</span>
+              <span class="skill-tag">EKS</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-category-title">containers/</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Kubernetes</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">Helm</span>
+              <span class="skill-tag">Pod Autoscaling</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-category-title">databases/</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">MongoDB</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">Redis</span>
+              <span class="skill-tag">Elasticsearch</span>
+              <span class="skill-tag">DynamoDB</span>
+              <span class="skill-tag">Cassandra</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-category-title">messaging/</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Apache Kafka</span>
+              <span class="skill-tag">RabbitMQ</span>
+              <span class="skill-tag">Redis Pub/Sub</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-category-title">architecture/</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Microservices</span>
+              <span class="skill-tag">Event-Driven</span>
+              <span class="skill-tag">CQRS</span>
+              <span class="skill-tag">DDD</span>
+              <span class="skill-tag">Cloud-Native</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-category-title">monitoring/</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Grafana</span>
+              <span class="skill-tag">ELK Stack</span>
+              <span class="skill-tag">DataDog</span>
+              <span class="skill-tag">New Relic</span>
+              <span class="skill-tag">CloudWatch</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <h2 class="section-title"><span class="terminal-prompt">~$</span> git log --oneline career</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-date">Oct 2024 - Present</span>
+                <span class="timeline-badge current">Current</span>
+              </div>
+              <h3 class="timeline-title">Technical Lead - Backend Data Catalog Team</h3>
+              <h4 class="timeline-company">Securiti.ai <span class="timeline-location">Islamabad, Pakistan</span></h4>
+              <ul class="timeline-details">
+                <li>Implemented API rate limiting in Go-based ingestion layer handling <strong>200k+ requests/minute</strong>, reducing 503 errors from 15-20% to under 1%</li>
+                <li>Developed incremental backoff strategy reducing request failure rates from 30-40% to 2-5% after retries</li>
+                <li>Built Python plugins for data propagation layer, enabling integration with multiple enterprise data sources</li>
+                <li>Developed high-throughput APIs using Golang, Kafka, and Kubernetes for metadata processing</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-date">Sep 2022 - Oct 2024</span>
+              </div>
+              <h3 class="timeline-title">Staff Software Engineer (Backend)</h3>
+              <h4 class="timeline-company">Fiber Mountain <span class="timeline-location">Islamabad, Pakistan</span></h4>
+              <ul class="timeline-details">
+                <li>Spearheaded transformation of 5+ monolithic modules to event-driven microservices, scaling from 2,000 to <strong>30,000 nodes (1,400% improvement)</strong></li>
+                <li>Implemented distributed load-balanced network discovery handling <strong>50M+ daily requests</strong>, improving speed by 220%</li>
+                <li>Refactored IoT state generator processing 2M+ device states hourly with consistent 300ms response time</li>
+                <li>Optimized via Redis caching, reducing P95 API response time by 65% and database load by 40%</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-date">Feb 2021 - Sep 2022</span>
+              </div>
+              <h3 class="timeline-title">Senior Software Engineer (Backend) - FinTech</h3>
+              <h4 class="timeline-company">Retailo Technologies <span class="timeline-location">Islamabad, Pakistan</span></h4>
+              <ul class="timeline-details">
+                <li>Engineered cloud-native Routing SaaS scaling from 8 to <strong>2000+ city clusters (250x improvement)</strong>, reducing compute costs by 95%</li>
+                <li>Designed high-performance calculation engine via gRPC handling 30,000+ requests/hour with 50ms P99 latency</li>
+                <li>Led ZATCA-compliant taxation module processing 2,000+ secure receipts/hour with 100% regulatory compliance</li>
+                <li>Built recommendation engine serving <strong>100K+ daily active users</strong>, improving product discovery by 35%</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-date">Jun 2018 - Jan 2021</span>
+              </div>
+              <h3 class="timeline-title">Software Engineer Full Stack</h3>
+              <h4 class="timeline-company">Xgrid Inc <span class="timeline-location">Islamabad, Pakistan</span></h4>
+              <ul class="timeline-details">
+                <li>Expanded Cisco SD-WAN orchestration platform to support <strong>10,000+ network devices</strong> with 100% throughput improvement</li>
+                <li>Optimized real-time dashboard performance by 70% using WebSockets and Web Workers</li>
+                <li>Implemented CI/CD pipeline reducing release cycle from 2 weeks to 2 days with 95% successful deployments</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-date">9 months contract</span>
+              </div>
+              <h3 class="timeline-title">Consulting Solutions Architect - Team Lead</h3>
+              <h4 class="timeline-company">12iD <span class="timeline-location">Stockholm, Sweden (Remote)</span></h4>
+              <ul class="timeline-details">
+                <li>Migrated monolithic architecture to microservices using gRPC, improving reliability from 95% to 99.5%</li>
+                <li>Developed Node.js SDKs and Ethereum blockchain integrations adopted by <strong>50+ enterprise clients</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <h2 class="section-title"><span class="terminal-prompt">~$</span> ls projects/</h2>
+        <p class="section-subtitle">Fetching repositories from GitHub...</p>
+        <div class="projects-grid" id="projects-grid">
+          <!-- Projects loaded via JavaScript -->
+        </div>
+        <div class="projects-cta">
+          <a href="https://github.com/mraafaykhan" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            View All on GitHub
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" style="margin-left: 8px;"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <h2 class="section-title"><span class="terminal-prompt">~$</span> echo "Let's connect!"</h2>
+        <div class="contact-content">
+          <p class="contact-text">I'm always open to discussing new opportunities, interesting projects, or just having a chat about distributed systems and backend architecture.</p>
+          <div class="contact-methods">
+            <a href="mailto:raafayrashid@gmail.com" class="contact-card">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
+              </div>
+              <span class="contact-label">Email</span>
+              <span class="contact-value">raafayrashid@gmail.com</span>
+            </a>
+            <a href="https://linkedin.com/in/fundefinedvar" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </div>
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">fundefinedvar</span>
+            </a>
+            <a href="https://github.com/mraafaykhan" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </div>
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">mraafaykhan</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">&copy; 2024 Muhammad Raafay Khan. All rights reserved.</p>
+        <p class="footer-built">Built with vanilla HTML, CSS & JavaScript</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
 </html>

@@ -1,0 +1,11 @@
+# robots.txt for mraafaykhan.github.io/personalWebsite
+# Allow all search engines to crawl the entire site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://mraafaykhan.github.io/personalWebsite/sitemap.xml
+
+# Crawl-delay (optional, be nice to crawlers)
+Crawl-delay: 10

@@ -1,13 +1,21 @@
-# project
-_site
-.sass-cache
-.vagrant
+# AI context - always ignore
+ai-context/
 
-# general
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
 Thumbs.db
 ehthumbs.db
 
-Gemfile.lock
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
 
-beautiful-jekyll-theme-*.gem
+# Node modules (if added later)
+node_modules/
